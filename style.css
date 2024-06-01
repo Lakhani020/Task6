@@ -1,0 +1,87 @@
+.d1{
+    width: 250px;
+    height: 200vh;
+    background-color: #f0f0f0;
+}
+
+#sidebar {
+    width: 250px;
+    height: 40vh;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 200px;
+    /* left: 5px; */
+    overflow-y: scroll;
+ 
+  }
+  a{
+    color:black;
+  }
+  
+  #sidebar a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif; 
+    margin-left: 20px;
+
+  }
+
+  #sidebar a:hover{
+    color: rgb(255, 0, 85);
+    background-color:rgb(251, 198, 216);
+    border-radius: 10px;
+  }
+
+  #profile{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 70px;
+    left: 65px;
+  }
+  .active { 
+   
+    background-color:rgb(251, 198, 216);
+    color: rgb(255, 0, 85);
+    border-radius: 10px;
+  }
+ 
+  #i1{
+    position: fixed;
+    top: 215px;
+    left: 25px;
+    height: 20px;
+    width: 20px;
+  }
+  #sidebar img {
+    position: relative;
+    width: 25px; 
+    height: 20px; 
+    margin-right:10px;  
+    top: 5px;
+    
+    
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #cccccc; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(223, 49, 107); 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(223, 49, 107); 
+  }
+ 
+
+ 
