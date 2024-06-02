@@ -1,4 +1,4 @@
-const sidebarLinks = document.querySelectorAll('#sidebar a');
+const sidebarLinks = document.querySelectorAll('.sidebar a');
 
 sidebarLinks.forEach(link => {
   link.addEventListener('click', () => {
